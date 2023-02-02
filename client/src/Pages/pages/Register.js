@@ -9,10 +9,10 @@ import {
   Tabs,
   Text,
 } from "@chakra-ui/react";
-import { Login, Signup } from "../components";
+import { Login, Signup } from "../../components";
 import { useNavigate } from "react-router-dom";
-import { getUserFromLocalStorage } from "../utils/localStorage";
-import MockupImage from "../assets/img/background.png";
+import { getUserFromLocalStorage } from "../../utils/localStorage";
+import MockupImage from "../../assets/img/background.png";
 import "./register.css";
 
 const Register = () => {

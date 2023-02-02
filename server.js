@@ -59,7 +59,7 @@ const server = createServer(app);
 
 const start = async () => {
   try {
-    await connectDB(process.env.MONGO_URL);
+    await connectDB(process.env.MONGO_URI);
     server.listen(port, () =>
       console.log(`Server Running on port : ${port}...`)
     );
